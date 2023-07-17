@@ -1,1 +1,211 @@
 
+
+21880291_01.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Danh sách có thứ tự</title>
+</head>
+<body>
+	<h1>Thực đơn</h1>
+	<ol>
+		<li>Cơm gà</li>
+		<li>Phở</li>
+		<li>Gỏi cuốn</li>
+	</ol>
+	<hr>
+	<ol type="a">
+		<li>Bún chả Hà Nội</li>
+		<li>Bánh đa cua Hải Phòng</li>
+		<li>Cơm cháy Ninh Bình</li>
+	</ol>
+	<hr>
+	<ol type="I">
+		<li>Gỏi cuốn Sài Gòn</li>
+		<li>Bánh khọt Vũng Tàu</li>
+		<li>Phở khô Gia Lai</li>
+	</ol>
+</body>
+</html>
+
+#####**#####
+
+
+21880291_02.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Danh sách có thứ tự</title>
+</head>
+<body>
+	<h1>Thực đơn</h1>
+	<ul>
+		<li>Cơm gà</li>
+		<li>Phở</li>
+		<li>Gỏi cuốn</li>
+	</ul>
+	<hr>
+	<ul type="circle">
+		<li>Bún chả Hà Nội</li>
+		<li>Bánh đa cua Hải Phòng</li>
+		<li>Cơm cháy Ninh Bình</li>
+	</ul>
+	<hr>
+	<ul type="square">
+		<li>Gỏi cuốn Sài Gòn</li>
+		<li>Bánh khọt Vũng Tàu</li>
+		<li>Phở khô Gia Lai</li>
+	</ul>
+</body>
+</html>
+
+#####**#####
+
+21880291_03.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Danh sách có thứ tự</title>
+</head>
+<body>
+	<h1>Introduce HTML</h1>
+	<ol type="1">
+		<li>
+		<h2>History</h2>
+		<ol type="1">
+		 <li>
+			<h3>Internet</h3>
+		 </li>
+		 <li>
+			<h3>Web</h3>
+			<ul type="a">
+				<li>Chrome</li>
+				<li>Internet Explore</li>
+				<li>Firefox</li>
+				<li>Safari</li>
+			</ul>
+		 </li>
+		</ol>
+	</li>
+	<li>
+		<h2>Version</h2>
+	</li>
+	</ol>
+</body>
+</html>
+
+#####**#####
+
+21880291_04.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Danh sách tự định nghĩa</title>
+</head>
+<body>
+	<dl>
+		<dt>Hãng sản xuất</dl>
+		<dd><a href="#">Revell</a></dd>
+		<dd><a href="#">Lego</a></dd>
+		<dd><a href="#">Lamaze</a></dd>
+		<dd><a href="#">yTech</a></dd>
+		<dd><a href="#">Rastar</a></dd>
+		<dd><a href="#">Syma</a></dd>
+	</dl>
+</body>
+</html>
+
+#####**#####
+
+21880291_05.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Danh sách tự định nghĩa</title>
+</head>
+<body>
+	<table border="1">
+	<tr>
+		<td>hello 01</td>
+		<td>hello 02</td>
+		<td>hello 03</td>
+	</tr>
+	<tr>
+		<td>hello 01</td>
+		<td>hello 02</td>
+		<td>hello 03</td>
+	</tr>
+	</table>
+	<hr/>
+	<table>
+	<tr>
+		<td>hello 01</td>
+		<td>hello 02</td>
+		<td>hello 03</td>
+	</tr>
+	<tr>
+		<td>hello 01</td>
+		<td>hello 02</td>
+		<td>hello 03</td>
+	</tr>
+	</table>
+</body>
+</html>
+#####**#####
+
+21880291_06.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Danh sách tự định nghĩa</title>
+</head>
+<body>
+	<table border="1">
+<tr>
+<td>hello 01</td>
+<td colspan="2">colspan = 2</td>
+</tr>
+<tr>
+<td>hello 01</td>
+<td>hello 02</td>
+<td>hello 03</td>
+</tr>
+</table>
+<hr/>
+<table border="1">
+<tr>
+<td>hello 01</td>
+<td>hello 02</td>
+<td>hello 03</td>
+</tr>
+<tr>
+<tdcolspan="3" align="center">colspan = 3</td>
+</tr>
+<tr>
+<td>hello 01</td>
+<td>hello 02</td>
+<td>hello 03</td>
+</tr>
+</table>
+</body>
+</html>
+
+
