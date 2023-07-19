@@ -4,7 +4,7 @@ dòng 23 đóng thẻ </li> chưa đúng, nên đóng sau khi đóng thẻ </ul>
 
 #Sử dụng VSCode and git để update code from local to github
 Linux / Mac eg.
-
+```
 git config --global core.editor vim
 Check git settings which displays configuration details
 
@@ -19,3 +19,4 @@ git commit -m "commit message"                                     // commit you
 git remote add origin https://github.com/username/repo-name.git    // add remote repository URL which contains the required details
 git pull origin main                                             // always pull from remote before pushing
 git push -u origin main                                          // publish
+```
