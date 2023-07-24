@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        input:required:invalid, input:focus:invalid {
+            background-image: url(/images/invalid.png);
+            background-position: right top;
+            background-repeat: no-repeat;
+        }
+        input:required:valid {
+            background-image: url(/images/valid.png);
+            background-position: right top;
+            background-repeat: no-repeat;
+        }
+
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="Name" required oninput="alert('Please enter yout name!')"><br/>
+    <input type="email" placeholder="Email" required pattern="[a-z0-9.%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" /><br/> 
+    <input type="text" placeholder="Subject" required /><br/>
+    <input type="text" placeholder="Message" required ><br/>
+    <input type="submit" value="Send">
+
+</body>
+</html>
