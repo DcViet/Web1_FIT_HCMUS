@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create a Gmail Account</title>
+</head>
+<body>
+  <form action="process_registration.php" method="post">
+    <div>
+      <label for="first">First Name</label>
+      <input type="text" id="first" name="first" required />
+
+      <label for="last">Last Name</label>
+      <input type="text" id="last" name="last" required />
+    </div>
+    
+    <div>
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" placeholder="@gmail.com" required />
+    </div>
+
+    <div>
+      <label for="newpass">Create a Password</label>
+      <input type="password" id="newpass" name="newpass" required />
+    </div>
+
+    <div>
+      <label for="confirmpass">Confirm Password</label>
+      <input type="password" id="confirmpass" name="confirmpass" required />
+    </div>
+    <div>
+      <label>Birthday</label>
+      <div>
+        <select name="birth-day" required>
+          <option value="" disabled selected>Day</option>
+          <option value="01">01</option>
+          <option value="02">02</option>
+          <option value="03">03</option>
+        </select>
+
+        <select name="birth-month" required>
+          <option value="" disabled selected>Month</option>
+          <option value="01">January</option>
+          <option value="02">February</option>
+          <option value="03">March</option>
+        </select>
+
+        <select name="birth-year" required>
+          <option value="" disabled selected>Year</option>
+          <option value="2000">2020</option>
+          <option value="2001">2021</option>
+          <option value="2002">2023</option>
+        </select>
+      </div>
+    </div>
+
+
+    <div>
+      <label for="gender">Gender</label></br>
+      <select id="gender" name="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="phone">Phone Number</label></br>
+      <input type="tel" id="phone" name="phone" required />
+    </div>
+
+    <div>
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required />
+      <select name="country-code">
+        <option value="+84">+84</option>
+        <option value="+1">+1</option>
+      </select>
+    </div>
+    
+
+    <div>
+      <label for="current-email">Current Email</label></br>
+      <input type="email" id="current-email" name="current-email" required />
+    </div> </br>
+
+    <div>
+      <label for="location">Location</label>
+      <select id="location" name="location" required>
+        <option value="" disabled selected>Select your location</option>
+        <option value="Viet Name">Viet Nam</option>
+        <option value="Thai Lan">Thai Lan</option>
+        <option value="Singapore">Singapore</option>
+      </select>
+    </div>
+
+    <div>
+      <input type="submit" value="Next step" />
+    </div>
+  </form>
+</body>
+</html>
